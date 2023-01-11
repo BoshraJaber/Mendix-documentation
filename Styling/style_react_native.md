@@ -32,13 +32,13 @@ export const classExample = {
 2. Update `./custom-variables.js` file (same as in web styling)
 
 3. Custom Classes:
-  1. Add the class name (camel-cased) to the element you want to style, let's say for example a `container`
+    1. Add the class name (camel-cased) to the element you want to style, let's say for example a `container`
   ![](./Images/customclass-01.png)
-  2. Check [this documentation](https://docs.mendix.com/refguide/mobile/designing-mobile-user-interfaces/widget-styling-guide/#native-mobile-styling) to see the structure of the container. Knowing the structure of the element is important to structure our javascript object
+   2. Check [this documentation](https://docs.mendix.com/refguide/mobile/designing-mobile-user-interfaces/widget-styling-guide/#native-mobile-styling) to see the structure of the container. Knowing the structure of the element is important to structure our javascript object
 
 ![](Images/conatiner_documentation.png)
-   1. the element name, container, is going to be used as a property in the javascript object.
-   2. In the Style Properties, what is meant by the **ViewStyle properties**, are the React Native properties you can add to your element. You can check them from [this documentation](https://reactnative.dev/docs/view-style-props)
+   3. the element name, container, is going to be used as a property in the javascript object.
+   4. In the Style Properties, what is meant by the **ViewStyle properties**, are the React Native properties you can add to your element. You can check them from [this documentation](https://reactnative.dev/docs/view-style-props)
 
 ```javascript
 export const custumClass = {
