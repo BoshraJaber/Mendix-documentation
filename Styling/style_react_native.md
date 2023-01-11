@@ -6,9 +6,9 @@
 - If you have two classes with the same name, it will cause an error.
 - Only flex and Absolute are used.
 - Flex is applied by default to all elements.
-- When using Absolute, its always realtive to its parent.
-- Not all CSS properties are applicable to Native Styling.
-- All the values of the properties are either string or a number.
+- When using Absolute, it is always relative to its parent.
+- Not all CSS properties apply to Native Styling.
+- All the values of the properties are either a string or a number.
 
 - Example of Native Styling:
 ```js
@@ -32,12 +32,12 @@ export const classExample = {
 2. Update `./custom-variables.js` file (same as in web styling)
 
 3. Custom Classes:
-  1. Add the class name (camelcased) to the elment you want to style, let's say for example a `container`
+  1. Add the class name (camel-cased) to the element you want to style, let's say for example a `container`
   ![](./Images/customclass-01.png)
-  2. Check [this documentation](https://docs.mendix.com/refguide/mobile/designing-mobile-user-interfaces/widget-styling-guide/#native-mobile-styling) to see the structure of the container. Knowing the structor of the element is important to structure our javascript object
+  2. Check [this documentation](https://docs.mendix.com/refguide/mobile/designing-mobile-user-interfaces/widget-styling-guide/#native-mobile-styling) to see the structure of the container. Knowing the structure of the element is important to structure our javascript object
 
 ![](Images/conatiner_documentation.png)
-   1. the element name ,container, is going to be used as property in the javascript object.
+   1. the element name, container, is going to be used as a property in the javascript object.
    2. In the Style Properties, what is meant by the **ViewStyle properties**, are the React Native properties you can add to your element. You can check them from [this documentation](https://reactnative.dev/docs/view-style-props)
 
 ```javascript
@@ -54,12 +54,12 @@ export const custumClass = {
     }
 }
 ```
-4. Configure and use your own desgin properties (similar to web)
+4. Configure and use your desgin properties (similar to the web)
 
 
 
 
 ## Resources:
-[Building a Native App with UX & Styling](https://www.youtube.com/watch?v=D1eQQzLQwtA)
-[Widget Styling Guide](https://docs.mendix.com/refguide/mobile/designing-mobile-user-interfaces/widget-styling-guide/#native-mobile-styling)
-[React Native Properties Documentation](https://reactnative.dev/docs/view-style-props#borderstyle)
+- [Building a Native App with UX & Styling](https://www.youtube.com/watch?v=D1eQQzLQwtA)
+- [Widget Styling Guide](https://docs.mendix.com/refguide/mobile/designing-mobile-user-interfaces/widget-styling-guide/#native-mobile-styling)
+- [React Native Properties Documentation](https://reactnative.dev/docs/view-style-props#borderstyle)
