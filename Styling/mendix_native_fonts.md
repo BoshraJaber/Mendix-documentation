@@ -6,7 +6,7 @@
    - This [documentation](https://docs.mendix.com/howto8/mobile/native-custom-fonts/) gives detailed steps on how to do so.
 
 2. **Responsive fonts:**
-   - Using the same font across all devices may not always be the best choice. Fortunately, Mendix offers a built-in helper function, adjustFont, which allows font adjustment based on the width and height of the device used. This function is typically found in the theme\styles\native\core\helpers\_functions\adjustfont.js folder.
+   - Using the same font across all devices may not always be the best choice. Fortunately, Mendix offers a built-in helper function, adjustFont, which allows font adjustment based on the width and height of the device used. This function is typically found in the `theme\styles\native\core\helpers\_functions\adjustfont.js` folder.
 . One option would be calling this function whenever using `fontSize` property.
 
   - In cases where the built-in function doesn't meet your requirements, consider the following solutions:
