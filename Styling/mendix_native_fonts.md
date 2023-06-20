@@ -42,7 +42,7 @@ export const nexaBoldFontFamily = {
     ☞: "Nexa-Bold",
 };
 ```
-- Fonts used in the app can be affected by the device's default fonts, leading to various UI issues. However, this can be resolved by adding the following lines:
+- Fonts used in the app can be affected by the device's default fonts, leading to various UI issues if not handled. However, this can be resolved by adding the following lines:
 
 ```js
 import { Text } from "react-native";
