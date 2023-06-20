@@ -6,13 +6,12 @@
    - This [documentation](https://docs.mendix.com/howto8/mobile/native-custom-fonts/) gives detailed steps on how to do so.
 
 2. **Responsive fonts:**
-   - Using the same font across all devices may not always be the best choice. Fortunately, Mendix offers a built-in helper function, adjustFont, which allows font adjustment based on the width and height of the device used. This function is typically found in the `theme\styles\native\core\helpers\_functions\adjustfont.js` folder.
+   - Using the same font across all devices may not always be the best choice. Fortunately, Mendix offers a built-in helper function, `adjustFont`, which allows font adjustment based on the width and height of the device used. This function is typically found in the `theme\styles\native\core\helpers\_functions\adjustfont.js` folder.
 . One option would be calling this function whenever using `fontSize` property.
 
-  - In cases where the built-in function doesn't meet your requirements, consider the following solutions:
+   - In cases where the built-in function doesn't meet your requirements, consider the following solutions:
         1. Utilize the built-in method provided by React Native.
-        2. Develop a custom function that offers greater flexibility and control. The recommended approach involves selecting a base device where the fonts appear as desired.
-Then the fonts will scale down for smaller devices, and up for larger ones. An Example of that:
+        2. Develop a custom function that offers greater flexibility and control. The recommended approach involves selecting a base device where the fonts appear as desired, then the fonts will scale down for smaller devices, and up for larger ones. An Example of that:
 ```js
 import { PixelRatio } from "react-native";
 
@@ -52,7 +51,7 @@ Text.defaultProps = Text.defaultProps || {};
 Text.defaultProps.allowFontScaling = false;
 ```
 
-4. Useful Resources:
+4. **Useful Resources:**
 - [Mobile viewports for responsive experiences](https://experienceleague.adobe.com/docs/target/using/experiences/vec/mobile-viewports.html)
 - [PixelRatio - React Native](https://reactnative.dev/docs/pixelratio)
 
